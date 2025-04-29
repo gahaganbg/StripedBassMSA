@@ -2,7 +2,7 @@
 This is a repository for striped bass genomic data to conduct mixed stock analysis, as presented in Gahagan et al. 2025, *Accurate, precise, and efficient estimates of striped bass mixed-stock catch* (in review).
 
 **Data provided currently includes:**
-  1. The 233 SNP GTSeq baseline reference panel (Reference_Genotypes_Genepop NEW.txt) and associated metadata.
+  1. The 233 SNP GTSeq baseline reference panel (Reference_Genotypes_Genepop NEW.txt) and associated metadata, as presented in LeBlanc et al. 2025 (in press).
   2. The 233 SNP GTSeq genotypes for Massachusetts fisheries dependent striped bass samples (n = 977).
   3. The 233 SNP GTSeq genotypes for Connecticut fisheries dependent striped bass samples (n = 188).
 
