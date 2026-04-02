@@ -183,11 +183,6 @@ multi_mix <- lapply(mixsize, function(m) { #This takes a long time to run! Save 
 multi_mix <- multi_mix %>%
   mutate(mixsize = as.numeric(mixsize), kh_ppn = as.numeric(kh_ppn))
 
-#.......................................................................
-#save(multi_mix, file = "full2StockMixSim 9_24")
-#load("full2StockMixSim 9_24")
-#.......................................................................
-
 # Get summary data from multi-mix for plotting
 PlotData <- multi_mix %>%
   filter(repunit %in% c("KenHud", "DelChes")) %>%
