@@ -1,12 +1,10 @@
 # StripedBassMSA
-This is a repository for striped bass genomic data to conduct mixed stock analysis, as presented in Gahagan et al., *Determining accurate and precise genetic estimates of mixed-stock catch for efficient sampling: An application to striped bass*.
+This is a repository for striped bass genomic data to conduct genetic stock identification and mixed stock analysis, as presented in Gahagan et al., *Determining accurate and precise genetic estimates of mixed-stock catch for efficient sampling: An application to striped bass*.
 
 **Data provided currently includes:**
-  1. The 233 SNP GTSeq baseline reference panel (Reference_Genotypes_Genepop NEW.txt) and associated metadata, as presented in LeBlanc et al. 2025 (in press).
-  2. The 233 SNP GTSeq genotypes for Massachusetts fisheries dependent striped bass samples (n = 976).
-  3. The 233 SNP GTSeq genotypes for Connecticut fisheries dependent striped bass samples (n = 188).
-
-Code to perform analyses can be found in the R script *insert name here*
+  1. The 233 SNP GTSeq baseline reference panel (Reference_Genotypes_Genepop NEW.txt, baseline_samples.rda) and associated metadata, as presented in [LeBlanc et al. 2025](https://doi.org/10.1093/tafafs/vnaf010)).
+  2. The 233 SNP GTSeq genotypes for Massachusetts (n = 976) and Connecticut (n = 188) fisheries dependent striped bass samples (fishery_samples.rda).
+  3. A R script to run all analyses presented in the manuscript (SimulationManuscript_Public.R)
 
 **Abstract:**
 Rapid advancements in genomics and genetic stock identification have provided powerful solutions for resolving the dilemmas presented by mixed stock fisheries, but explicit methods to fully test a panel and determine appropriate sample sizes to collect are still needed. We developed a simulation approach to assess the accuracy, precision, and source of error of any genetic reference panel for mixing proportion estimates and applied it to a GT-Seq panel for striped bass. We also compared the simulation results to empirical estimates from mixed stock fishery samples collected in Massachusetts and Connecticut. Accuracy was very high (> 97%) across all simulations, but it was best in well-mixed samples and worst when a reporting unit contributed almost all or very few fish to a mixture. Precision was also high; 90% credible intervals were lower than 0.090 (on a scale of 0.000 to 1.000) and more than 50% of the total improvement had been realized at 200 samples. Fishery mixture estimates typically had better precision than simulations but improved more slowly with sample size, demonstrating that the simulation approach provided valuable guidance when employing new panels. The Delaware-Chesapeake reporting unit contributed 79.0% to Connecticut samples and 82.3% to Massachusetts and was significantly higher in the southernmost portion of that state (89.1%), indicating spatial variability in catch composition. The Kennebec-Hudson reporting unit made up the remainder in Connecticut but not in Massachusetts, where a small proportion of North Carolina origin fish were detected (0.7%, 90% CI = 0.3 – 1.1%). 
